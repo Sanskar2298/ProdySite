@@ -431,8 +431,10 @@ export default function TimelinePage() {
     const onTouchStart = (e: TouchEvent) => {
       st.touchStartX = e.touches[0].clientX;
     };
+    const TOUCH_MULTIPLIER = 2.5;
+
     const onTouchMove = (e: TouchEvent) => {
-      const dx = st.touchStartX - e.touches[0].clientX;
+      const dx = (st.touchStartX - e.touches[0].clientX) * TOUCH_MULTIPLIER;
       st.targetX = Math.max(0, Math.min(getMax(), st.targetX + dx));
       st.touchStartX = e.touches[0].clientX;
     };
@@ -459,7 +461,8 @@ export default function TimelinePage() {
       if (!prev) prev = ts;
       prev = ts;
 
-      st.scrollX += (st.targetX - st.scrollX) * 0.1;
+      const isTouching = Math.abs(st.targetX - st.scrollX) > 1;
+      st.scrollX += (st.targetX - st.scrollX) * (isTouching ? 0.22 : 0.1);
       const track = trackRef.current;
       if (track) track.style.transform = `translateX(${-st.scrollX}px)`;
 
