@@ -555,7 +555,7 @@ export default function EventPage() {
             <div style={{ height: 1, background: "linear-gradient(to right,transparent,rgba(180,124,60,0.3),transparent)", marginBottom: "1.5rem" }} />
 
             <button
-              onClick={() => window.open("https://chat.whatsapp.com/YOUR_LINK_HERE", "_blank", "noopener,noreferrer")}
+              onClick={() => window.open("https://chat.whatsapp.com/LIpjcMwREMy59h3ggY42DG?mode=gi_t", "_blank", "noopener,noreferrer")}
               style={{ width: "100%", padding: "0.8rem", background: "#25D366", border: "none", borderRadius: 4, fontFamily: "'Barlow Condensed',sans-serif", fontWeight: 700, fontSize: "0.9rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#fff", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: "0.6rem" }}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
