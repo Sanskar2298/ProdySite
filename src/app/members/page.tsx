@@ -47,86 +47,86 @@ const ALL_MEMBERS: Member[] = [
   { year: 5, category: "FI", name: "Abhijeet Bhattacharya", post: "Faculty Incharge", pokemon: "Solgaleo", pokemonImage: POKEMON_SPRITES(791), memberImage: "/members/FI/Abhijeet.webp", title: "Associate Professor DoECE" },
 
   // ── Final Year ──
-  { year: 4, category: "Final Year", name: "Sourabh Awasthy",  post: "President",                      pokemon: "Arceus",    pokemonImage: POKEMON_SPRITES(493), memberImage: "/members/final/sourabh.webp",    title: ALCHEMICAL_TITLE["President"] },
-  { year: 4, category: "Final Year", name: "Gugli Thakur",     post: "Vice President",                 pokemon: "Gardevoir", pokemonImage: POKEMON_SPRITES(282), memberImage: "/members/final/gugli.webp",      title: ALCHEMICAL_TITLE["Vice President"] },
-  { year: 4, category: "Final Year", name: "Mehul Ambastha",   post: "Vice President",                 pokemon: "Alakazam",  pokemonImage: POKEMON_SPRITES(65),  memberImage: "/members/final/mehul.webp",      title: ALCHEMICAL_TITLE["Vice President"] },
-  { year: 4, category: "Final Year", name: "Sakshi Gothwal",   post: "Secretary",                      pokemon: "Espeon",    pokemonImage: POKEMON_SPRITES(196), memberImage: "/members/final/sakshi.webp",     title: ALCHEMICAL_TITLE["Secretary"] },
-  { year: 4, category: "Final Year", name: "Ankur Yadav",      post: "Joint Secretary",                pokemon: "Umbreon",   pokemonImage: POKEMON_SPRITES(197), memberImage: "/members/final/ankur.webp",      title: ALCHEMICAL_TITLE["Joint Secretary"] },
-  { year: 4, category: "Final Year", name: "Anshuman Payasi",  post: "Design Head",                    pokemon: "Jolteon",   pokemonImage: POKEMON_SPRITES(135), memberImage: "/members/final/anshuman.webp",   title: ALCHEMICAL_TITLE["Design Head"] },
-  { year: 4, category: "Final Year", name: "Abhimanyu Singh",  post: "Technical Head",                 pokemon: "Metagross", pokemonImage: POKEMON_SPRITES(376), memberImage: "/members/final/abhimanyu.webp",  title: ALCHEMICAL_TITLE["Technical Head"] },
-  { year: 4, category: "Final Year", name: "Ayan Chordia",     post: "Finance Head",                   pokemon: "Blastoise", pokemonImage: POKEMON_SPRITES(9),   memberImage: "/members/final/ayan.webp",       title: ALCHEMICAL_TITLE["Finance Head"] },
-  { year: 4, category: "Final Year", name: "Ayushi",           post: "PR Head",                        pokemon: "Ninetales", pokemonImage: POKEMON_SPRITES(38),  memberImage: "/members/final/ayushi.webp",     title: ALCHEMICAL_TITLE["PR Head"] },
-  { year: 4, category: "Final Year", name: "Anurag",           post: "Media & Marketing Head",         pokemon: "Lucario",   pokemonImage: POKEMON_SPRITES(448), memberImage: "/members/final/anuragtrip.webp", title: ALCHEMICAL_TITLE["Media & Marketing Head"] },
-  { year: 4, category: "Final Year", name: "Aditya Sharma",    post: "Joint Design Head",              pokemon: "Sylveon",   pokemonImage: POKEMON_SPRITES(700), memberImage: "/members/final/aditya.webp",     title: ALCHEMICAL_TITLE["Joint Design Head"] },
-  { year: 4, category: "Final Year", name: "Tanashvi",         post: "Joint Technical Head",           pokemon: "Togekiss",  pokemonImage: POKEMON_SPRITES(468), memberImage: "/members/final/tanashvi.webp",   title: ALCHEMICAL_TITLE["Joint Technical Head"] },
-  { year: 4, category: "Final Year", name: "Laksh Bhandari",   post: "Joint Media & Marketing Head",   pokemon: "Dragonite", pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/final/laksh.webp",      title: ALCHEMICAL_TITLE["Joint Media & Marketing Head"] },
-  { year: 4, category: "Final Year", name: "Oshin Sharma",     post: "Joint PR Head",                  pokemon: "Vaporeon",  pokemonImage: POKEMON_SPRITES(134), memberImage: "/members/final/oshin.webp",      title: ALCHEMICAL_TITLE["Joint PR Head"] },
-  { year: 4, category: "Final Year", name: "Rishika Sharma",   post: "Creative Head",                  pokemon: "Eevee",     pokemonImage: POKEMON_SPRITES(133), memberImage: "/members/final/rishika.webp",    title: ALCHEMICAL_TITLE["Creative Head"] },
+  { year: 4, category: "Final Year", name: "Sourabh Awasthy", post: "President", pokemon: "Arceus", pokemonImage: POKEMON_SPRITES(493), memberImage: "/members/final/sourabh.webp", title: ALCHEMICAL_TITLE["President"] },
+  { year: 4, category: "Final Year", name: "Gugli Thakur", post: "Vice President", pokemon: "Gardevoir", pokemonImage: POKEMON_SPRITES(282), memberImage: "/members/final/gugli.webp", title: ALCHEMICAL_TITLE["Vice President"] },
+  { year: 4, category: "Final Year", name: "Mehul Ambastha", post: "Vice President", pokemon: "Alakazam", pokemonImage: POKEMON_SPRITES(65), memberImage: "/members/final/mehul.webp", title: ALCHEMICAL_TITLE["Vice President"] },
+  { year: 4, category: "Final Year", name: "Sakshi Gothwal", post: "Secretary", pokemon: "Espeon", pokemonImage: POKEMON_SPRITES(196), memberImage: "/members/final/sakshi.webp", title: ALCHEMICAL_TITLE["Secretary"] },
+  { year: 4, category: "Final Year", name: "Ankur Yadav", post: "Joint Secretary", pokemon: "Umbreon", pokemonImage: POKEMON_SPRITES(197), memberImage: "/members/final/ankur.webp", title: ALCHEMICAL_TITLE["Joint Secretary"] },
+  { year: 4, category: "Final Year", name: "Anshuman Payasi", post: "Design Head", pokemon: "Jolteon", pokemonImage: POKEMON_SPRITES(135), memberImage: "/members/final/anshuman.webp", title: ALCHEMICAL_TITLE["Design Head"] },
+  { year: 4, category: "Final Year", name: "Abhimanyu Singh", post: "Technical Head", pokemon: "Metagross", pokemonImage: POKEMON_SPRITES(376), memberImage: "/members/final/abhimanyu.webp", title: ALCHEMICAL_TITLE["Technical Head"] },
+  { year: 4, category: "Final Year", name: "Ayan Chordia", post: "Finance Head", pokemon: "Blastoise", pokemonImage: POKEMON_SPRITES(9), memberImage: "/members/final/ayan.webp", title: ALCHEMICAL_TITLE["Finance Head"] },
+  { year: 4, category: "Final Year", name: "Ayushi", post: "PR Head", pokemon: "Ninetales", pokemonImage: POKEMON_SPRITES(38), memberImage: "/members/final/ayushi.webp", title: ALCHEMICAL_TITLE["PR Head"] },
+  { year: 4, category: "Final Year", name: "Anurag", post: "Media & Marketing Head", pokemon: "Lucario", pokemonImage: POKEMON_SPRITES(448), memberImage: "/members/final/anuragtrip.webp", title: ALCHEMICAL_TITLE["Media & Marketing Head"] },
+  { year: 4, category: "Final Year", name: "Aditya Sharma", post: "Joint Design Head", pokemon: "Sylveon", pokemonImage: POKEMON_SPRITES(700), memberImage: "/members/final/aditya.webp", title: ALCHEMICAL_TITLE["Joint Design Head"] },
+  { year: 4, category: "Final Year", name: "Tanashvi", post: "Joint Technical Head", pokemon: "Togekiss", pokemonImage: POKEMON_SPRITES(468), memberImage: "/members/final/tanashvi.webp", title: ALCHEMICAL_TITLE["Joint Technical Head"] },
+  { year: 4, category: "Final Year", name: "Laksh Bhandari", post: "Media & Marketing Head", pokemon: "Dragonite", pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/final/laksh.webp", title: ALCHEMICAL_TITLE["Joint Media & Marketing Head"] },
+  { year: 4, category: "Final Year", name: "Oshin Sharma", post: "Joint PR Head", pokemon: "Vaporeon", pokemonImage: POKEMON_SPRITES(134), memberImage: "/members/final/oshin.webp", title: ALCHEMICAL_TITLE["Joint PR Head"] },
+  { year: 4, category: "Final Year", name: "Rishika Sharma", post: "Creative Head", pokemon: "Eevee", pokemonImage: POKEMON_SPRITES(133), memberImage: "/members/final/rishika.webp", title: ALCHEMICAL_TITLE["Creative Head"] },
 
   // ── Coordinators ──
-  { year: 3, category: "Coordinator", name: "Arihant Dogra",       post: "Secretary",                    pokemon: "Gengar",     pokemonImage: POKEMON_SPRITES(94),  memberImage: "/members/third/arihant.webp",        title: ALCHEMICAL_TITLE["Secretary"] },
-  { year: 3, category: "Coordinator", name: "Akshit Saini",        post: "Convener (Event)",              pokemon: "Charizard",  pokemonImage: POKEMON_SPRITES(6),   memberImage: "/members/third/akshitsaini.webp",     title: ALCHEMICAL_TITLE["Convener (Event)"] },
-  { year: 3, category: "Coordinator", name: "Saksham Kashyap",     post: "Convener (Creative)",           pokemon: "Flareon",    pokemonImage: POKEMON_SPRITES(136), memberImage: "/members/third/kashyapsaksham.webp",  title: ALCHEMICAL_TITLE["Convener (Creative)"] },
-  { year: 3, category: "Coordinator", name: "Yash Sisodia",        post: "Finance Head",                  pokemon: "Raichu",     pokemonImage: POKEMON_SPRITES(26),  memberImage: "/members/third/yashsisodia.webp",      title: ALCHEMICAL_TITLE["Finance Head"] },
-  { year: 3, category: "Coordinator", name: "Abhishek Sharma",     post: "Joint Finance Head",            pokemon: "Slowbro",    pokemonImage: POKEMON_SPRITES(80),  memberImage: "/members/third/abhishek.webp",        title: ALCHEMICAL_TITLE["Joint Finance Head"] },
-  { year: 3, category: "Coordinator", name: "Mannat Katna",        post: "Design Head",                   pokemon: "Clefable",   pokemonImage: POKEMON_SPRITES(36),  memberImage: "/members/third/mannat.webp",          title: ALCHEMICAL_TITLE["Design Head"] },
-  { year: 3, category: "Coordinator", name: "Sonal Dogra",         post: "PR Head",                       pokemon: "Jigglypuff", pokemonImage: POKEMON_SPRITES(39),  memberImage: "/members/third/sonal.webp",           title: ALCHEMICAL_TITLE["PR Head"] },
-  { year: 3, category: "Coordinator", name: "Amit Singh Bathyal",  post: "Joint PR Head",                 pokemon: "Scizor",     pokemonImage: POKEMON_SPRITES(212), memberImage: "/members/third/amitsingh.webp",       title: ALCHEMICAL_TITLE["Joint PR Head"] },
-  { year: 3, category: "Coordinator", name: "Akshit Pathania",     post: "Technical Head",                pokemon: "Muk",        pokemonImage: POKEMON_SPRITES(89),  memberImage: "/members/third/akshitpathania.webp",  title: ALCHEMICAL_TITLE["Technical Head"] },
-  { year: 3, category: "Coordinator", name: "Ayush Arora",         post: "Joint Technical Head",          pokemon: "Electivire", pokemonImage: POKEMON_SPRITES(466), memberImage: "/members/third/ayusharora.webp",      title: ALCHEMICAL_TITLE["Joint Technical Head"] },
-  { year: 3, category: "Coordinator", name: "Kanishk Singh",       post: "Media & Marketing Head",        pokemon: "Minccino",   pokemonImage: POKEMON_SPRITES(572), memberImage: "/members/third/kanishk.webp",         title: ALCHEMICAL_TITLE["Media & Marketing Head"] },
-  { year: 3, category: "Coordinator", name: "Siya Sood",           post: "Creative Head",                 pokemon: "Roserade",   pokemonImage: POKEMON_SPRITES(407), memberImage: "/members/third/siyasood.webp",        title: ALCHEMICAL_TITLE["Creative Head"] },
-  { year: 3, category: "Coordinator", name: "Naman Srivastava",    post: "Operations/Logistics Head",     pokemon: "Heracross",  pokemonImage: POKEMON_SPRITES(214), memberImage: "/members/third/namansrivastava.webp", title: ALCHEMICAL_TITLE["Operations/Logistics Head"] },
-  { year: 3, category: "Coordinator", name: "Ashutosh",            post: "Joint Media & Marketing Head",  pokemon: "Haunter",    pokemonImage: POKEMON_SPRITES(93),  memberImage: "/members/third/ashutosh.webp",        title: ALCHEMICAL_TITLE["Joint Media & Marketing Head"] },
+  { year: 3, category: "Coordinator", name: "Arihant Dogra", post: "Secretary", pokemon: "Gengar", pokemonImage: POKEMON_SPRITES(94), memberImage: "/members/third/arihant.webp", title: ALCHEMICAL_TITLE["Secretary"] },
+  { year: 3, category: "Coordinator", name: "Akshit Saini", post: "Convener (Event)", pokemon: "Charizard", pokemonImage: POKEMON_SPRITES(6), memberImage: "/members/third/akshitsaini.webp", title: ALCHEMICAL_TITLE["Convener (Event)"] },
+  { year: 3, category: "Coordinator", name: "Saksham Kashyap", post: "Convener (Creative)", pokemon: "Flareon", pokemonImage: POKEMON_SPRITES(136), memberImage: "/members/third/kashyapsaksham.webp", title: ALCHEMICAL_TITLE["Convener (Creative)"] },
+  { year: 3, category: "Coordinator", name: "Yash Sisodia", post: "Finance Head", pokemon: "Raichu", pokemonImage: POKEMON_SPRITES(26), memberImage: "/members/third/yashsisodia.webp", title: ALCHEMICAL_TITLE["Finance Head"] },
+  { year: 3, category: "Coordinator", name: "Abhishek Sharma", post: "Joint Finance Head", pokemon: "Slowbro", pokemonImage: POKEMON_SPRITES(80), memberImage: "/members/third/abhishek.webp", title: ALCHEMICAL_TITLE["Joint Finance Head"] },
+  { year: 3, category: "Coordinator", name: "Mannat Katna", post: "Design Head", pokemon: "Clefable", pokemonImage: POKEMON_SPRITES(36), memberImage: "/members/third/mannat.webp", title: ALCHEMICAL_TITLE["Design Head"] },
+  { year: 3, category: "Coordinator", name: "Sonal Dogra", post: "PR Head", pokemon: "Jigglypuff", pokemonImage: POKEMON_SPRITES(39), memberImage: "/members/third/sonal.webp", title: ALCHEMICAL_TITLE["PR Head"] },
+  { year: 3, category: "Coordinator", name: "Amit Singh Bathyal", post: "Joint PR Head", pokemon: "Scizor", pokemonImage: POKEMON_SPRITES(212), memberImage: "/members/third/amitsingh.webp", title: ALCHEMICAL_TITLE["Joint PR Head"] },
+  { year: 3, category: "Coordinator", name: "Akshit Pathania", post: "Technical Head", pokemon: "Muk", pokemonImage: POKEMON_SPRITES(89), memberImage: "/members/third/akshitpathania.webp", title: ALCHEMICAL_TITLE["Technical Head"] },
+  { year: 3, category: "Coordinator", name: "Ayush Arora", post: "Joint Technical Head", pokemon: "Electivire", pokemonImage: POKEMON_SPRITES(466), memberImage: "/members/third/ayusharora.webp", title: ALCHEMICAL_TITLE["Joint Technical Head"] },
+  { year: 3, category: "Coordinator", name: "Kanishk Singh", post: "Media & Marketing Head", pokemon: "Minccino", pokemonImage: POKEMON_SPRITES(572), memberImage: "/members/third/kanishk.webp", title: ALCHEMICAL_TITLE["Media & Marketing Head"] },
+  { year: 3, category: "Coordinator", name: "Siya Sood", post: "Creative Head", pokemon: "Roserade", pokemonImage: POKEMON_SPRITES(407), memberImage: "/members/third/siyasood.webp", title: ALCHEMICAL_TITLE["Creative Head"] },
+  { year: 3, category: "Coordinator", name: "Naman Srivastava", post: "Operations/Logistics Head", pokemon: "Heracross", pokemonImage: POKEMON_SPRITES(214), memberImage: "/members/third/namansrivastava.webp", title: ALCHEMICAL_TITLE["Operations/Logistics Head"] },
+  { year: 3, category: "Coordinator", name: "Ashutosh", post: "Joint Media & Marketing Head", pokemon: "Haunter", pokemonImage: POKEMON_SPRITES(93), memberImage: "/members/third/ashutosh.webp", title: ALCHEMICAL_TITLE["Joint Media & Marketing Head"] },
 
   // ── Executive ──
-  { year: 2, category: "Executive", name: "Sanskar Srivastava", post: "Executive Member", pokemon: "Pikachu",        pokemonImage: POKEMON_SPRITES(25),    memberImage: "/members/second/sanskar.webp",         title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Ayush Agarwal",      post: "Executive Member", pokemon: "Ash's Greninja", pokemonImage: POKEMON_SPRITES(658), memberImage: "/members/second/ayushagarwal.webp",   title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Sitanshu Nayan",     post: "Executive Member", pokemon: "Mewtwo",       pokemonImage: POKEMON_SPRITES(150),     memberImage: "/members/second/sitanshu.webp",       title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Saksham Shandilya",  post: "Executive Member", pokemon: "Doduo",          pokemonImage: POKEMON_SPRITES(84),    memberImage: "/members/second/sakshamshandiliya.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Priyanshi Joshi",    post: "Executive Member", pokemon: "Eevee",          pokemonImage: POKEMON_SPRITES(133),   memberImage: "/members/second/priyanshi.webp",      title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Anurag Singh",       post: "Executive Member", pokemon: "Zekrom",          pokemonImage: POKEMON_SPRITES(644),   memberImage: "/members/second/anurag.webp",         title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Shrestha Gupta",     post: "Executive Member", pokemon: "Piplup",         pokemonImage: POKEMON_SPRITES(393),   memberImage: "/members/second/shrestha.webp",       title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Biyanka Sharma",     post: "Executive Member", pokemon: "Butterfree",     pokemonImage: POKEMON_SPRITES(12),    memberImage: "/members/second/biyanka.webp",        title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Ridhima Guleria",    post: "Executive Member", pokemon: "Ralts",          pokemonImage: POKEMON_SPRITES(280),   memberImage: "/members/second/ridhima.webp",        title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Prabhav Batra",      post: "Executive Member", pokemon: "Jynx",       pokemonImage: POKEMON_SPRITES(124),   memberImage: "/members/second/prabhav.webp",        title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Arpit Phogat",       post: "Executive Member", pokemon: "Snorlax",        pokemonImage: POKEMON_SPRITES(143),   memberImage: "/members/second/arpit.webp",          title: ALCHEMICAL_TITLE["Executive Member"] },
-  { year: 2, category: "Executive", name: "Ankit Patel",        post: "Executive Member", pokemon: "Psyduck",       pokemonImage: POKEMON_SPRITES(54),   memberImage: "/members/second/ankit.webp",          title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Sanskar Srivastava", post: "Executive Member", pokemon: "Pikachu", pokemonImage: POKEMON_SPRITES(25), memberImage: "/members/second/sanskar.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Ayush Agarwal", post: "Executive Member", pokemon: "Ash's Greninja", pokemonImage: POKEMON_SPRITES(658), memberImage: "/members/second/ayushagarwal.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Sitanshu Nayan", post: "Executive Member", pokemon: "Mewtwo", pokemonImage: POKEMON_SPRITES(150), memberImage: "/members/second/sitanshu.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Saksham Shandilya", post: "Executive Member", pokemon: "Doduo", pokemonImage: POKEMON_SPRITES(84), memberImage: "/members/second/sakshamshandiliya.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Priyanshi Joshi", post: "Executive Member", pokemon: "Eevee", pokemonImage: POKEMON_SPRITES(133), memberImage: "/members/second/priyanshi.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Anurag Singh", post: "Executive Member", pokemon: "Zekrom", pokemonImage: POKEMON_SPRITES(644), memberImage: "/members/second/anurag.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Shrestha Gupta", post: "Executive Member", pokemon: "Piplup", pokemonImage: POKEMON_SPRITES(393), memberImage: "/members/second/shrestha.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Biyanka Sharma", post: "Executive Member", pokemon: "Butterfree", pokemonImage: POKEMON_SPRITES(12), memberImage: "/members/second/biyanka.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Ridhima Guleria", post: "Executive Member", pokemon: "Ralts", pokemonImage: POKEMON_SPRITES(280), memberImage: "/members/second/ridhima.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Prabhav Batra", post: "Executive Member", pokemon: "Jynx", pokemonImage: POKEMON_SPRITES(124), memberImage: "/members/second/prabhav.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Arpit Phogat", post: "Executive Member", pokemon: "Snorlax", pokemonImage: POKEMON_SPRITES(143), memberImage: "/members/second/arpit.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
+  { year: 2, category: "Executive", name: "Ankit Patel", post: "Executive Member", pokemon: "Psyduck", pokemonImage: POKEMON_SPRITES(54), memberImage: "/members/second/ankit.webp", title: ALCHEMICAL_TITLE["Executive Member"] },
 
   // ── Volunteers (year 1) — matches /members/first/ exactly ──
-  { year: 1, category: "Volunteer", name: "Aarush Ajay",      post: "Volunteer", pokemon: "Togepi",     pokemonImage: POKEMON_SPRITES(175), memberImage: "/members/first/aarush.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Akshat Rajput",    post: "Volunteer", pokemon: "Treecko",    pokemonImage: POKEMON_SPRITES(252), memberImage: "/members/first/akshat.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Akshita",          post: "Volunteer", pokemon: "Celebi",     pokemonImage: POKEMON_SPRITES(251), memberImage: "/members/first/akshita.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Ananya Sharma",    post: "Volunteer", pokemon: "Marill",     pokemonImage: POKEMON_SPRITES(183), memberImage: "/members/first/ananya.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Anika Khosla",     post: "Volunteer", pokemon: "Skitty",     pokemonImage: POKEMON_SPRITES(300), memberImage: "/members/first/anika.webp",        title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Anuj Kumawat",     post: "Volunteer", pokemon: "Torchic",    pokemonImage: POKEMON_SPRITES(255), memberImage: "/members/first/anuj.webp",         title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Arnav Kaushik",    post: "Volunteer", pokemon: "Cyndaquil",  pokemonImage: POKEMON_SPRITES(155), memberImage: "/members/first/arnav.webp",        title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Garima Pathania",  post: "Volunteer", pokemon: "Chikorita",  pokemonImage: POKEMON_SPRITES(152), memberImage: "/members/first/garima.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Insha",            post: "Volunteer", pokemon: "Ralts",      pokemonImage: POKEMON_SPRITES(280), memberImage: "/members/first/insha.webp",        title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Kishan",           post: "Volunteer", pokemon: "Bulbasaur",  pokemonImage: POKEMON_SPRITES(1),   memberImage: "/members/first/kishan.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Nandini",          post: "Volunteer", pokemon: "Jigglypuff", pokemonImage: POKEMON_SPRITES(39),  memberImage: "/members/first/nandini.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Nitin",            post: "Volunteer", pokemon: "Squirtle",   pokemonImage: POKEMON_SPRITES(7),   memberImage: "/members/first/nitin.webp",        title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Pragya",           post: "Volunteer", pokemon: "Vulpix",     pokemonImage: POKEMON_SPRITES(37),  memberImage: "/members/first/pragya.webp",       title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Rakshit",          post: "Volunteer", pokemon: "Charmander", pokemonImage: POKEMON_SPRITES(4),   memberImage: "/members/first/rakshit.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Riya",             post: "Volunteer", pokemon: "Pikachu",    pokemonImage: POKEMON_SPRITES(25),  memberImage: "/members/first/riya.webp",         title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Samit",            post: "Volunteer", pokemon: "Eevee",      pokemonImage: POKEMON_SPRITES(133), memberImage: "/members/first/samit.webp",        title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Sandali",          post: "Volunteer", pokemon: "Mew",        pokemonImage: POKEMON_SPRITES(151), memberImage: "/members/first/sandali.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Saurabh",          post: "Volunteer", pokemon: "Gengar",     pokemonImage: POKEMON_SPRITES(94),  memberImage: "/members/first/saurabh.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Shreyan",          post: "Volunteer", pokemon: "Lucario",    pokemonImage: POKEMON_SPRITES(448), memberImage: "/members/first/shreyan.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Siddharth",        post: "Volunteer", pokemon: "Greninja",   pokemonImage: POKEMON_SPRITES(658), memberImage: "/members/first/siddharth.webp",    title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Sushant",          post: "Volunteer", pokemon: "Mimikyu",    pokemonImage: POKEMON_SPRITES(778), memberImage: "/members/first/sushant.webp",      title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Vaishnavi",        post: "Volunteer", pokemon: "Snorlax",    pokemonImage: POKEMON_SPRITES(143), memberImage: "/members/first/vaishnavi.webp",    title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Vishal Dadwal",    post: "Volunteer", pokemon: "Dragonite",  pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/first/vishaldadwal.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Advay Sood",    post: "Volunteer", pokemon: "Sylveon",  pokemonImage: POKEMON_SPRITES(700), memberImage: "/members/first/advay.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
-  { year: 1, category: "Volunteer", name: "Adarsh",    post: "Volunteer", pokemon: "Dragonite",  pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/first/adarsh.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Aarush Ajay", post: "Volunteer", pokemon: "Togepi", pokemonImage: POKEMON_SPRITES(175), memberImage: "/members/first/aarush.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Akshat Rajput", post: "Volunteer", pokemon: "Treecko", pokemonImage: POKEMON_SPRITES(252), memberImage: "/members/first/akshat.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Akshita", post: "Volunteer", pokemon: "Celebi", pokemonImage: POKEMON_SPRITES(251), memberImage: "/members/first/akshita.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Ananya Sharma", post: "Volunteer", pokemon: "Marill", pokemonImage: POKEMON_SPRITES(183), memberImage: "/members/first/ananya.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Anika Khosla", post: "Volunteer", pokemon: "Skitty", pokemonImage: POKEMON_SPRITES(300), memberImage: "/members/first/anika.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Anuj Kumawat", post: "Volunteer", pokemon: "Torchic", pokemonImage: POKEMON_SPRITES(255), memberImage: "/members/first/anuj.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Arnav Kaushik", post: "Volunteer", pokemon: "Cyndaquil", pokemonImage: POKEMON_SPRITES(155), memberImage: "/members/first/arnav.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Garima Pathania", post: "Volunteer", pokemon: "Chikorita", pokemonImage: POKEMON_SPRITES(152), memberImage: "/members/first/garima.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Insha", post: "Volunteer", pokemon: "Ralts", pokemonImage: POKEMON_SPRITES(280), memberImage: "/members/first/insha.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Kishan", post: "Volunteer", pokemon: "Bulbasaur", pokemonImage: POKEMON_SPRITES(1), memberImage: "/members/first/kishan.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Nandini", post: "Volunteer", pokemon: "Jigglypuff", pokemonImage: POKEMON_SPRITES(39), memberImage: "/members/first/nandini.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Nitin", post: "Volunteer", pokemon: "Squirtle", pokemonImage: POKEMON_SPRITES(7), memberImage: "/members/first/nitin.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Pragya", post: "Volunteer", pokemon: "Vulpix", pokemonImage: POKEMON_SPRITES(37), memberImage: "/members/first/pragya.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Rakshit", post: "Volunteer", pokemon: "Charmander", pokemonImage: POKEMON_SPRITES(4), memberImage: "/members/first/rakshit.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Riya", post: "Volunteer", pokemon: "Pikachu", pokemonImage: POKEMON_SPRITES(25), memberImage: "/members/first/riya.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Samit", post: "Volunteer", pokemon: "Eevee", pokemonImage: POKEMON_SPRITES(133), memberImage: "/members/first/samit.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Sandali", post: "Volunteer", pokemon: "Mew", pokemonImage: POKEMON_SPRITES(151), memberImage: "/members/first/sandali.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Saurabh", post: "Volunteer", pokemon: "Gengar", pokemonImage: POKEMON_SPRITES(94), memberImage: "/members/first/saurabh.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Shreyan", post: "Volunteer", pokemon: "Lucario", pokemonImage: POKEMON_SPRITES(448), memberImage: "/members/first/shreyan.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Siddharth", post: "Volunteer", pokemon: "Greninja", pokemonImage: POKEMON_SPRITES(658), memberImage: "/members/first/siddharth.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Sushant", post: "Volunteer", pokemon: "Mimikyu", pokemonImage: POKEMON_SPRITES(778), memberImage: "/members/first/sushant.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Vaishnavi", post: "Volunteer", pokemon: "Snorlax", pokemonImage: POKEMON_SPRITES(143), memberImage: "/members/first/vaishnavi.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Vishal Dadwal", post: "Volunteer", pokemon: "Dragonite", pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/first/vishaldadwal.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Advay Sood", post: "Volunteer", pokemon: "Sylveon", pokemonImage: POKEMON_SPRITES(700), memberImage: "/members/first/advay.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
+  { year: 1, category: "Volunteer", name: "Adarsh", post: "Volunteer", pokemon: "Dragonite", pokemonImage: POKEMON_SPRITES(149), memberImage: "/members/first/adarsh.webp", title: ALCHEMICAL_TITLE["Volunteer"] },
 ];
 
 const YEAR_TABS = [
-  { label: "FI",           value: 5 },
-  { label: "Final Year",   value: 4 },
+  { label: "FI", value: 5 },
+  { label: "Final Year", value: 4 },
   { label: "Coordinators", value: 3 },
-  { label: "Executive",    value: 2 },
-  { label: "Volunteers",   value: 1 },
+  { label: "Executive", value: 2 },
+  { label: "Volunteers", value: 1 },
 ];
 
 function seededRand(seed: number) {
@@ -135,7 +135,7 @@ function seededRand(seed: number) {
 }
 
 function MemberCard({ member, index, flipped, onFlip }: { member: Member; index: number; flipped: boolean; onFlip: () => void }) {
-  const offsetX = (seededRand(index * 7)  - 0.5) * 32;
+  const offsetX = (seededRand(index * 7) - 0.5) * 32;
   const offsetY = (seededRand(index * 11) - 0.5) * 16;
 
   return (
@@ -191,9 +191,9 @@ function MemberCard({ member, index, flipped, onFlip }: { member: Member; index:
 }
 
 export default function MembersPage() {
-  const [activeYear,    setActiveYear]    = useState(5);
-  const [flippedIndex,  setFlippedIndex]  = useState<number | null>(null);
-  const [mouse,         setMouse]         = useState({ x: -999, y: -999 });
+  const [activeYear, setActiveYear] = useState(5);
+  const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
+  const [mouse, setMouse] = useState({ x: -999, y: -999 });
   const pageRef = useRef<HTMLDivElement>(null);
 
   const filtered = ALL_MEMBERS.filter(m => m.year === activeYear);
@@ -289,14 +289,14 @@ export default function MembersPage() {
           animationDuration: `${3 + (i % 4)}s`,
           animationDelay: `${(i * 0.7) % 4}s`,
           opacity: 0,
-          width:  i % 3 === 0 ? 2 : 3,
+          width: i % 3 === 0 ? 2 : 3,
           height: i % 3 === 0 ? 2 : 3,
           background: i % 2 === 0 ? "#ffb300" : "#ff6600",
         }} />
       ))}
 
       <div className="members-page" ref={pageRef}>
-        <div style={{ position:"fixed", inset:0, pointerEvents:"none", zIndex:0, background:"radial-gradient(ellipse 80% 60% at 50% 0%,rgba(100,50,0,0.3) 0%,transparent 70%)" }} />
+        <div style={{ position: "fixed", inset: 0, pointerEvents: "none", zIndex: 0, background: "radial-gradient(ellipse 80% 60% at 50% 0%,rgba(100,50,0,0.3) 0%,transparent 70%)" }} />
 
         <div className="page-header">
           <h1 className="page-title">The Alchemists</h1>
