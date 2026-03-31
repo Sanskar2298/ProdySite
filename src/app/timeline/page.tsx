@@ -93,16 +93,16 @@ const DAYS = [
         desc: "",
       },
       {
-        t: "04:30 PM",
-        icon: "𓆑",
-        title: "The Rosetta Code",
-        desc: "Final Evaluation",
-      },
-      {
         t: "2:00 PM",
         icon: "𓆓",
         title: "PYRABID",
         desc: "Round II",
+      },
+      {
+        t: "04:30 PM",
+        icon: "𓆑",
+        title: "The Rosetta Code",
+        desc: "Final Evaluation",
       },
       {
         t: "07:30 PM",
