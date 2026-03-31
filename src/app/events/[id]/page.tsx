@@ -308,7 +308,12 @@ export default function EventPage() {
   );
 
   const meta = getMeta(event.title);
-  const teamSize = event.minTeamSize && event.maxTeamSize ? `${event.minTeamSize}–${event.maxTeamSize}` : "Open";
+    const teamSize =
+    event.minTeamSize && event.maxTeamSize
+      ? event.minTeamSize === event.maxTeamSize
+        ? `${event.minTeamSize}`
+        : `${event.minTeamSize}–${event.maxTeamSize}`
+      : "Open";
 
   return (
     <>
