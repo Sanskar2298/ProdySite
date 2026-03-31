@@ -9,45 +9,107 @@ import { useEffect, useRef, useCallback } from "react";
 const DAYS = [
   {
     date: "April 3",
-    day: "Day I",
+    day: "Day 0", 
     glyph: "𓂀",
     title: "The Opening of the Gates",
-    sub: "4:00 PM – 7:00 PM",
+    sub: "Inauguration & Cultural Ignition",
     events: [
-      { t: "04:00 PM", icon: "𓋴", title: "Sailboat",          desc: "Material Distribution" },
-      { t: "04:00 PM", icon: "𓅓", title: "Ancient Arch",      desc: "Material Distribution" },
-      { t: "04:00 PM", icon: "𓆓", title: "Chemystery",        desc: "Round 1" },
-      { t: "04:00 PM", icon: "𓏛", title: "Hackathon",         desc: "Problem Statement" },
+      {
+        t: "2:30 PM",
+        icon: "𓋴",
+        title: "Sacred Inauguration",
+        desc: "ID CARDS WILL BE ALLOTTED TO THE PARTICIPANTS",
+      },
+      {
+        t: "3:30 PM",
+        icon: "𓅓",
+        title: "SAIL-YO-BOAT",
+        desc: "MATERIAL DISTRIBUTION",
+      },
+      {
+        t: "4:30 PM",
+        icon: "𓆓",
+        title: "CHEMYSTERY",
+        desc: "Round I",
+      },
+      {
+        t: "05:00 PM",
+        icon: "𓏛",
+        title: "OHMIC CURSE",
+        desc: "Round I",
+      },
+      {
+        t: "06:00 PM",
+        icon: "𓂋",
+        title: "The Rosetta Code",
+        desc: "Round II - Problem Statement Release",
+      },  
     ],
   },
   {
     date: "April 4",
-    day: "Day II",
+    day: "Day I",
     glyph: "𓂃",
     title: "The Trial of the Pharaoh",
-    sub: "9:00 AM – 7:00 PM",
+    sub: "Competitions & Showdowns",
     events: [
-      { t: "09:00 AM", icon: "𓋴", title: "Sailboat",           desc: "Building Phase" },
-      { t: "09:00 AM", icon: "𓅓", title: "Escape Room",        desc: "Round 1" },
-      { t: "09:00 AM", icon: "𓆓", title: "Ancient Arch",       desc: "Building Phase" },
-      { t: "09:00 AM", icon: "𓏛", title: "Chemystery",         desc: "Round 2" },
-      { t: "09:00 AM", icon: "𓂋", title: "Hackathon",          desc: "Mid-evaluation" },
-      { t: "02:00 PM", icon: "𓋴", title: "Sailboat (PM)",      desc: "Building Phase" },
-      { t: "02:00 PM", icon: "𓆑", title: "Ancient Arch Final", desc: "Final Scoring" },
-      { t: "02:00 PM", icon: "𓇳", title: "Algebraic Auction",  desc: "Round 1" },
+      {
+        t: "10:30 AM",
+        icon: "𓅱",
+        title: "CHEMYSTERY",
+        desc: "Round II",
+      },
+      {
+        t: "2:00 PM",
+        icon: "𓆑",
+        title: "PYRABID",
+        desc: "Round I",
+      },
+      {
+        t: "4:00 PM",
+        icon: "𓇋",
+        title: "Truss The Process",
+        desc: "",
+      },
     ],
   },
   {
     date: "April 5",
-    day: "Day III",
+    day: "Day II",
     glyph: "𓊹",
     title: "The Eternal Return",
-    sub: "9:00 AM – 2:00 PM",
+    sub: "Grand Finale & Valediction",
     events: [
-      { t: "09:00 AM", icon: "𓋴", title: "Sailboat",           desc: "Final Testing & Scoring" },
-      { t: "09:00 AM", icon: "𓅓", title: "Escape Room",        desc: "Round 2" },
-      { t: "09:00 AM", icon: "𓂋", title: "Hackathon",          desc: "Final Evaluation" },
-      { t: "09:00 AM", icon: "𓇳", title: "Algebraic Auction",  desc: "Round 2" },
+      {
+        t: "10:00 AM",
+        icon: "𓅱",
+        title: "OHMIC CURSE",
+        desc: "Round II",
+      },
+      {
+        t: "11:00 AM",
+        icon: "𓏛",
+        title: "SAIL-YO-BOAT",
+        desc: "",
+      },
+      {
+        t: "04:30 PM",
+        icon: "𓆑",
+        title: "The Rosetta Code",
+        desc: "Final Evaluation",
+      },
+      {
+        t: "2:00 PM",
+        icon: "𓆓",
+        title: "PYRABID",
+        desc: "Round II",
+      },
+      {
+        t: "07:30 PM",
+        icon: "𓇳",
+        title: "The Eternal Flame",
+        desc: "Closing ceremony",
+      },
     ],
   },
 ];
@@ -431,10 +493,8 @@ export default function TimelinePage() {
     const onTouchStart = (e: TouchEvent) => {
       st.touchStartX = e.touches[0].clientX;
     };
-    const TOUCH_MULTIPLIER = 2.5;
-
     const onTouchMove = (e: TouchEvent) => {
-      const dx = (st.touchStartX - e.touches[0].clientX) * TOUCH_MULTIPLIER;
+      const dx = st.touchStartX - e.touches[0].clientX;
       st.targetX = Math.max(0, Math.min(getMax(), st.targetX + dx));
       st.touchStartX = e.touches[0].clientX;
     };
@@ -461,8 +521,7 @@ export default function TimelinePage() {
       if (!prev) prev = ts;
       prev = ts;
 
-      const isTouching = Math.abs(st.targetX - st.scrollX) > 1;
-      st.scrollX += (st.targetX - st.scrollX) * (isTouching ? 0.22 : 0.1);
+      st.scrollX += (st.targetX - st.scrollX) * 0.1;
       const track = trackRef.current;
       if (track) track.style.transform = `translateX(${-st.scrollX}px)`;
 
